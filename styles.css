@@ -4,22 +4,36 @@ html {
 
 #home-title {
     text-align: center;
-}
-
-h1 {
-    color: blue;
+    color: rgb(140, 0, 255);
     font-size: 72px;
 }
 
-img {
-    height: 360px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+
+
+.pages {
+    font-size: 56px;
+    color: rgb(140, 0, 255);
 }
 
+#page-title, h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color:rgb(39, 113, 223);
 
-ul {
-    
+}
+
+#page-title {
+    font-size: 54px;
+}
+
+img {
+    width: 480px;
+    height: 360px;
+    border-radius: 10%;
+}
+
+p, ul, ol {
+    color: rgb(66, 57, 50);
+    font-style: italic;
+    font-size: 26px;
 }
